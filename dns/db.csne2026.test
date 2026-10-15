@@ -1,0 +1,13 @@
+$TTL 86400
+@       IN  SOA ns1.csne2026.test. admin.csne2026.test. (
+                2026101401  ; serial
+                3600        ; refresh
+                900         ; retry
+                604800      ; expire
+                86400 )     ; negative cache TTL
+
+        IN  NS  ns1.csne2026.test.
+
+@       IN  A   192.168.26.10
+ns1     IN  A   192.168.26.10
+proxy   IN  A   192.168.26.20
